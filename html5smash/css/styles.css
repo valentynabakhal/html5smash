@@ -3,10 +3,10 @@
 }
 
 body {
-    background: #F5F4EF; 
+    background: #000305; 
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 
     Arial, sans-serif;
-    color: #000305;
+    color: #000000;
     font-size: 14px;
     line-height: 1.5;
 }
@@ -95,9 +95,11 @@ header a:active {
 }
 
 .title {
+        color: #fff;
         font-size: 50px;
     }
     .subtitle {
+        color: #fff;
         font-size: 18px;
     }
 
@@ -128,14 +130,14 @@ header a:active {
     width: 100%;
     padding: 5px;
     text-decoration: none;
-    color: #000305;
+    color: #ffffff;
     border-bottom: 1px solid #F4E3E3;
 }
     
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-    color: #F5F4EF;
+    color: rgb(255, 255, 255);
 }
 
     .articles article + article {
